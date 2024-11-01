@@ -3,29 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il Mio Sito Semplice</title>
+    <title>To-Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Benvenuto nel Mio Sito Semplice</h1>
-        <p>Creato in pochi minuti!</p>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Chi Siamo</h2>
-            <p>Siamo un team appassionato che ama creare siti web semplici e veloci.</p>
-        </section>
-        
-        <section>
-            <h2>Cosa Facciamo</h2>
-            <p>Ci impegniamo a creare siti web accessibili e facili da usare.</p>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2024 Il Mio Sito Semplice</p>
-    </footer>
+    <div class="app">
+        <h1>Lista di Cose da Fare</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Aggiungi una nuova attività...">
+            <button id="addTaskButton">Aggiungi</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
