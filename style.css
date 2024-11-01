@@ -82,3 +82,21 @@ li.completed {
     cursor: pointer;
     font-size: 1rem;
 }
+
+.filter-container {
+    margin: 1rem 0;
+}
+
+.filter-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filter-button:hover {
+    background-color: #0056b3;
+}
